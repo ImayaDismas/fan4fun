@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
+import com.dismas.imaya.fan4fun.R;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
