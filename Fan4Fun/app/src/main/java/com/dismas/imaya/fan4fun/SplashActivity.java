@@ -8,6 +8,9 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 
 import com.dismas.imaya.fan4fun.R;
+import com.dismas.imaya.fan4fun.SettingsPreferences;
+import com.dismas.imaya.fan4fun.SplashPagerAdapter;
+import com.dismas.imaya.fan4fun.FadePageTransformerUtil;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
