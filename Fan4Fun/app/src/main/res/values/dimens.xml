@@ -3,4 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="margin_avg">16dp</dimen>
+    <dimen name="padding_splash_dots">37dp</dimen>
+    <dimen name="text_size_avg">20sp</dimen>
+    <dimen name="text_size_big">25sp</dimen>
+    <dimen name="space_small">8dp</dimen>
 </resources>
