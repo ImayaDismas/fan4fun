@@ -10,7 +10,7 @@ import com.afollestad.materialdialogs.MaterialDialog;
 import com.dismas.imaya.fan4fun.R;
 
 /**
- * Created by imaya on 3/26/16.
+ * Created by imaya on 3/28/16.
  */
 public class SettingsPreferences {
     public static int SOURCE_NAME_SIZE;
