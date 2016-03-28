@@ -3,7 +3,7 @@
     android:id="@+id/relative_layout_fragment_splash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.crazyhitty.chdev.ks.munch.ui.activities.SplashActivity$PlaceholderFragment">
+    tools:context="com.dismas.imaya.fan4fun.SplashActivity$PlaceholderFragment">
 
     <RelativeLayout
         android:layout_width="match_parent"

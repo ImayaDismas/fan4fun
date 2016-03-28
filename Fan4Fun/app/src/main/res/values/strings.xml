@@ -299,15 +299,15 @@
     <string name="no_content_available">No Content Available</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="splash_title_1">Munch</string>
-    <string name="splash_title_2">Read RSS feeds easily</string>
-    <string name="splash_title_3">Manage, Archive and share your feeds</string>
-    <string name="splash_desc_1">A Minimalistic Rss Reader</string>
-    <string name="splash_desc_2">Scroll swiftly through the available feeds</string>
-    <string name="splash_desc_3">Add your own Rss feed sources, manage them and read the articles associated with the feeds</string>
+    <string name="splash_title_1">FAN4FUN</string>
+    <string name="splash_title_2">Audio Music on Fun4Fun</string>
+    <string name="splash_title_3">Video Music on Fun4Fun</string>
+    <string name="splash_desc_1">Streaming audio and video music just became a lot more fun! </string>
+    <string name="splash_desc_2">Discover easily thousands of music across all genre.Listen to the music of your choice and Cheer your favourite artist</string>
+    <string name="splash_desc_3">Easily search videos music of your favourite artist, watch and download</string>
 
     <string name="title_activity_about">About</string>
-    <string name="created_by">Kartik Sharma\n(Aka Chdev)</string>
+    <string name="created_by">Dismas Imaya\n(Aka Nyagaka)</string>
     <string name="contact_dev">Contact the developer</string>
 
     <string-array name="contacts">
@@ -317,10 +317,10 @@
         <item>Github</item>
     </string-array>
 
-    <string name="dev_mail">cr42yh17m4n@gmail.com</string>
-    <string name="dev_website">http://crazyhitty.com/</string>
+    <string name="dev_mail">imayadismas@gmail.com</string>
+    <string name="dev_website">http://imayadismas@bitballoon.com/</string>
     <string name="dev_google_plus">https://plus.google.com/106736340463642451694</string>
-    <string name="dev_github">https://github.com/crazyhitty/</string>
+    <string name="dev_github">https://github.com/ImayaDismas/</string>
 
     <string name="libraries_used">Libraries Used</string>
     <string name="library">Library</string>
