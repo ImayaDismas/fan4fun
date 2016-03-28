@@ -29,7 +29,7 @@
             tools:ignore="InconsistentLayout" />
 
         <fragment android:id="@+id/videoitem_list"
-            android:name="org.schabi.newpipe.VideoItemListFragment"
+            android:name="com.dismas.imaya.fan4fun.VideoItemListFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:layout="@android:layout/list_content" />

@@ -13,9 +13,16 @@
 
     <!--Youtube-->
 
+    <!--&lt;!&ndash; Light Theme &ndash;&gt;-->
+    <!--<color name="light_background_color">#EEEEEE</color>-->
+    <!--<color name="light_youtube_primary_color">#CD322E</color>-->
+    <!--<color name="light_youtube_dark_color">#BC211D</color>-->
+    <!--<color name="light_youtube_accent_color">#000000</color>-->
+    <!-- -->
+
     <!-- Light Theme -->
-    <color name="light_background_color">#EEEEEE</color>
-    <color name="light_youtube_primary_color">#CD322E</color>
+    <color name="light_background_color">#2196F3</color>
+    <color name="light_youtube_primary_color">#1976D2</color>
     <color name="light_youtube_dark_color">#BC211D</color>
     <color name="light_youtube_accent_color">#000000</color>
 

@@ -6,7 +6,7 @@
     <fragment
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/videoitem_list"
-        android:name="org.schabi.newpipe.VideoItemListFragment"
+        android:name="com.dismas.imaya.fan4fun.VideoItemListFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".VideoItemListActivity"
