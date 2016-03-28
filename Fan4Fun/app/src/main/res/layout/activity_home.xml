@@ -18,7 +18,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:text="Welcome to Fan4Fun"
-        android:textSize="35dp" />
+        android:textSize="30dp" />
 
     <ImageView
         android:layout_width="250dp"
@@ -37,8 +37,8 @@
         android:id="@+id/textView"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF"
-        android:layout_centerVertical="true"
-        android:layout_toStartOf="@+id/button" />
+        android:layout_alignBottom="@+id/button"
+        android:layout_toStartOf="@+id/button1" />
 
     <Button
         android:layout_width="wrap_content"
@@ -66,9 +66,10 @@
         android:id="@+id/textView1"
         android:textAlignment="textStart"
         android:textColor="#FFFFFF"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="15dp"
-        android:layout_alignStart="@+id/textView" />
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignTop="@+id/button1" />
 
     <Button
         android:layout_width="wrap_content"
