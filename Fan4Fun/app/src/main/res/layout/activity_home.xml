@@ -7,10 +7,40 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#9D82C4"
     tools:context="com.dismas.imaya.fan4fun.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/Text0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:text="Welcome to Fan4Fun"
+        android:textSize="35dp" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/Text0"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_2"
+        android:background="#F08718" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search for audio music."
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/Text0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="true" />
+
+
 </RelativeLayout>
