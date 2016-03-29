@@ -22,7 +22,7 @@
 
     <ImageView
         android:layout_width="250dp"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:layout_below="@+id/Text0"
         android:layout_centerHorizontal="true"
@@ -35,12 +35,50 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Search for audio music."
         android:id="@+id/textView"
-        android:layout_centerVertical="true"
-        android:layout_alignEnd="@+id/Text0"
-        android:textAlignment="center"
+        android:textAlignment="textStart"
         android:textColor="#FFFFFF"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentStart="true" />
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Audio Music"
+        android:id="@+id/button"
+        android:background="@drawable/other_button"
+        style="@style/other_button"
+        android:layout_below="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_4"
+        android:background="#2196F3" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Search for video music."
+        android:id="@+id/textView1"
+        android:textAlignment="textStart"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Video Music"
+        android:id="@+id/button1"
+        android:background="@drawable/other_button1"
+        style="@style/other_button"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
 
 
 </RelativeLayout>
