@@ -9,7 +9,7 @@ import com.dismas.imaya.fan4fun.library.client.SoundCloudTrack;
 
 /**
  * Listener used to catch event send by the
- * {@link fr.tvbarthel.cheerleader.library.player.PlaybackService}
+ * {@link com.dismas.imaya.fan4fun.library.player.PlaybackService}
  */
 class PlaybackListener extends BroadcastReceiver {
 

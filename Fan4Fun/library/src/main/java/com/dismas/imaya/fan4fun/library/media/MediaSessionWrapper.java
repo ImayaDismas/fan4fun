@@ -54,17 +54,17 @@ public class MediaSessionWrapper {
     /**
      * Action used to catch broadcast from {@link MediaSessionReceiver}
      */
-    static final String ACTION_TOGGLE_PLAYBACK = "fr.tvbarthel.simplesoundcloud.library.media.TOGGLE_PLAYBACK";
+    static final String ACTION_TOGGLE_PLAYBACK = "com.dismas.imaya.fan4fun.library.media.TOGGLE_PLAYBACK";
 
     /**
      * Action used to catch broadcast from {@link .MediaSessionReceiver}
      */
-    static final String ACTION_NEXT_TRACK = "fr.tvbarthel.simplesoundcloud.library.media.NEXT_TRACK";
+    static final String ACTION_NEXT_TRACK = "com.dismas.imaya.fan4fun.library.media.NEXT_TRACK";
 
     /**
      * Action used to catch broadcast from {@link MediaSessionReceiver}
      */
-    static final String ACTION_PREVIOUS_TRACK = "fr.tvbarthel.simplesoundcloud.library.media.PREVIOUS_TRACK";
+    static final String ACTION_PREVIOUS_TRACK = "com.dismas.imaya.fan4fun.library.media.PREVIOUS_TRACK";
 
     /**
      * Tag.
@@ -154,9 +154,9 @@ public class MediaSessionWrapper {
      * Propagate the playback state to the media session and the lock screen remote control.
      * <p/>
      * See also :
-     * {@link fr.tvbarthel.cheerleader.library.media.MediaSessionWrapper#PLAYBACK_STATE_STOPPED}
-     * {@link fr.tvbarthel.cheerleader.library.media.MediaSessionWrapper#PLAYBACK_STATE_PLAYING}
-     * {@link fr.tvbarthel.cheerleader.library.media.MediaSessionWrapper#PLAYBACK_STATE_PAUSED}
+     * {@link com.dismas.imaya.fan4fun.library.media.MediaSessionWrapper#PLAYBACK_STATE_STOPPED}
+     * {@link com.dismas.imaya.fan4fun.library.media.MediaSessionWrapper#PLAYBACK_STATE_PLAYING}
+     * {@link com.dismas.imaya.fan4fun.library.media.MediaSessionWrapper#PLAYBACK_STATE_PAUSED}
      *
      * @param state playback state.
      */
@@ -326,7 +326,7 @@ public class MediaSessionWrapper {
     }
 
     /**
-     * Catch callback from the {@link fr.tvbarthel.cheerleader.library.media.MediaSessionReceiver}
+     * Catch callback from the {@link com.dismas.imaya.fan4fun.library.media.MediaSessionReceiver}
      * which catch broadcast from the remote control client on the lock screen of pre Lollipop devices.
      */
     private final class LockScreenReceiver extends BroadcastReceiver {

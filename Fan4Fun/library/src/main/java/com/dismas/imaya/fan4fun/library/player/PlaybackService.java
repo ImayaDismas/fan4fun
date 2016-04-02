@@ -247,7 +247,7 @@ public class PlaybackService extends Service implements MediaPlayer.OnErrorListe
 
     /**
      * Wrapper used to manage {@link android.support.v4.media.session.MediaSessionCompat}
-     * as well as {@link fr.tvbarthel.cheerleader.library.remote.RemoteControlClientCompat}
+     * as well as {@link com.dismas.imaya.fan4fun.library.remote.RemoteControlClientCompat}
      */
     private MediaSessionWrapper mMediaSession;
 

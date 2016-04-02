@@ -90,7 +90,7 @@ public final class CheerleaderPlayer implements Action1<ArrayList<SoundCloudTrac
      * Singleton pattern.
      *
      * @param applicationContext context used to initiate
-     *                           {@link fr.tvbarthel.cheerleader.library.offline.Offliner}
+     *                           {@link com.dismas.imaya.fan4fun.library.offline.Offliner}
      * @param clientId           SoundCloud api client key.
      */
     private CheerleaderPlayer(Context applicationContext, String clientId) {
@@ -297,7 +297,7 @@ public final class CheerleaderPlayer implements Action1<ArrayList<SoundCloudTrac
      * <p/>
      * See also {@link CheerleaderPlayer#addTrack(SoundCloudTrack, boolean)}
      *
-     * @param track {@link fr.tvbarthel.cheerleader.library.client.SoundCloudTrack} to be
+     * @param track {@link com.dismas.imaya.fan4fun.library.client.SoundCloudTrack} to be
      *              added to the player.
      */
     public void addTrack(SoundCloudTrack track) {
@@ -307,7 +307,7 @@ public final class CheerleaderPlayer implements Action1<ArrayList<SoundCloudTrac
     /**
      * Add a track to the current SoundCloud player playlist.
      *
-     * @param track   {@link fr.tvbarthel.cheerleader.library.client.SoundCloudTrack} to be
+     * @param track   {@link com.dismas.imaya.fan4fun.library.client.SoundCloudTrack} to be
      *                added to the player.
      * @param playNow true to play the track immediately.
      */
@@ -325,7 +325,7 @@ public final class CheerleaderPlayer implements Action1<ArrayList<SoundCloudTrac
     /**
      * Add a list of track to thr current SoundCloud player playlist.
      *
-     * @param tracks list of {@link fr.tvbarthel.cheerleader.library.client.SoundCloudTrack}
+     * @param tracks list of {@link com.dismas.imaya.fan4fun.library.client.SoundCloudTrack}
      *               to be added to the player.
      */
     public void addTracks(List<SoundCloudTrack> tracks) {

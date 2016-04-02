@@ -15,10 +15,10 @@ import java.util.Calendar;
  * Encapsulate offline access and storage through {@link android.content.ContentResolver}.
  * <p/>
  * Use {@link android.content.AsyncQueryHandler} to make asynchronous saving :
- * {@link fr.tvbarthel.cheerleader.library.offline.OfflinerQueryHandler#put(String, String)}
+ * {@link com.dismas.imaya.fan4fun.library.offline.OfflinerQueryHandler#put(String, String)}
  * <p/>
  * Retrieving is synchronous :
- * {@link fr.tvbarthel.cheerleader.library.offline.OfflinerQueryHandler#put(String, String)}
+ * {@link com.dismas.imaya.fan4fun.library.offline.OfflinerQueryHandler#put(String, String)}
  */
 final class OfflinerQueryHandler extends AsyncQueryHandler {
 
