@@ -18,7 +18,7 @@
         android:clipToPadding="false"
         android:divider="@null" />
 
-    <fr.tvbarthel.cheerleader.sampleapp.ui.ProgressBarCompat
+    <com.dismas.imaya.fan4fun.ProgressBarCompat
         android:id="@+id/activity_artist_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
         android:textColor="@color/artist_activity_callback_text"
         android:visibility="invisible" />
 
-    <fr.tvbarthel.cheerleader.sampleapp.ui.BottomRecyclerListView
+    <com.dismas.imaya.fan4fun.BottomRecyclerListView
         android:id="@+id/activity_artist_playlist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

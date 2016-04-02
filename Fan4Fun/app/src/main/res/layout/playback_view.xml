@@ -57,7 +57,7 @@
         android:src="@drawable/ic_play_white"
         android:visibility="invisible" />
 
-    <fr.tvbarthel.cheerleader.sampleapp.ui.ProgressBarCompat
+    <com.dismas.imaya.fan4fun.ProgressBarCompat
         android:id="@+id/playback_view_loader"
         android:layout_width="48dp"
         android:layout_height="65dp"
